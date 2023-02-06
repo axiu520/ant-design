@@ -9,39 +9,20 @@ interface Option {
 
 const options: Option[] = [
   {
-    value: 'zhejiang',
-    label: 'Zhejiang',
+    value: 'A区',
+    label: 'A区',
     children: [
       {
-        value: 'hangzhou',
-        label: 'Hangzhou',
-        children: [
-          {
-            value: 'xihu',
-            label: 'West Lake',
-          },
-        ],
-      },
-    ],
-  },
+        value: '会议室门禁',
+        label: '会议室门禁',
   {
-    value: 'jiangsu',
-    label: 'Jiangsu',
+    value: 'B区',
+    label: 'B区',
     children: [
       {
-        value: 'nanjing',
-        label: 'Nanjing',
-        children: [
-          {
-            value: 'zhonghuamen',
-            label: 'Zhong Hua Men',
-          },
-        ],
-      },
-    ],
-  },
-];
-
+        value: '会议室门禁',
+        label: '会议室门禁',
+        
 const onChange = (value: string[]) => {
   console.log(value);
 };
